@@ -2,11 +2,10 @@ import Image from "next/image";
 import bg from "../../../../public/background/about-background.png";
 
 import { RenderModel } from "../../components/RenderModel";
-// import StaffModel from "../../components/models/Staff";
 import HatModel from "@/app/components/models/Hat";
 import { AboutDetails } from "@/app/components/about";
 
-export default function Home() {
+export default function About() {
   return (
     <>
       <Image

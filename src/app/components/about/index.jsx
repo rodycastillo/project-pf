@@ -54,11 +54,47 @@ export const AboutDetails = () => {
           </p>
         </ItemLayout>
 
+        <ItemLayout classname={"col-span-4 !p-0"}>
+          <img
+            className="w-full h-auto"
+            src="https://github-readme-stats.vercel.app/api/top-langs?username=rodycastillo&show_icons=true&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false"
+            alt="RodyCastillo"
+            loading="lazy"
+          />
+        </ItemLayout>
+
+        <ItemLayout classname={"col-span-8 !p-0"}>
+          <img
+            className="w-full h-auto"
+            src="https://github-readme-stats.vercel.app/api?username=rodycastillo&show_icons=true&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false"
+            alt="RodyCastillo"
+            loading="lazy"
+          />
+        </ItemLayout>
+
+        <ItemLayout classname={"col-span-full !p-6"}>
+          <img
+            className="w-full h-auto"
+            src="https://skillicons.dev/icons?i=js,html,css,wasm,react,angular,typescript,pug,nuxtjs,express,mongodb,mui,redux,sass,tailwind,vue,nextjs,nodejs,git,aws,vite,vscode,yarn,supabase"
+            alt="Technologies"
+            loading="lazy"
+          />
+        </ItemLayout>
+
         <ItemLayout classname={"col-span-6 !p-0"}>
           <img
             className="w-full h-auto"
-            src="https://github-readme-stats.vercel.app/api?username=rodycastillo&show_icons=true&theme=transparent&hide_border=true&title_color=FEFE5B"
-            alt="RodyCastillo"
+            src="https://github-readme-streak-stats.herokuapp.com?user=rodycastillo&theme=dark&hide_border=true&type=png&background=EB545400"
+            alt="Technologies"
+            loading="lazy"
+          />
+        </ItemLayout>
+
+        <ItemLayout classname={"col-span-6 !p-0"}>
+          <img
+            className="w-full h-auto"
+            src="https://github-readme-stats.vercel.app/api/pin?username=rodycastillo&repo=calculator-RN&theme=transparent&hide_border=true&type=png&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false"
+            alt="Technologies"
             loading="lazy"
           />
         </ItemLayout>
